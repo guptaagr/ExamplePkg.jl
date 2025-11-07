@@ -2,3 +2,11 @@ name = "ExamplePkg"
 uuid = "35e20998-bb4a-4471-86dd-381855abbabf"
 authors = ["Agrim <axg6018@psu.edu>"]
 version = "0.1.0"
+
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+Distributions = "0.25.122"
+Test = "1.11.0"
